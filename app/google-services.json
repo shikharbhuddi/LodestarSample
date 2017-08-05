@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "672125302398",
+    "firebase_url": "https://lodestarsample.firebaseio.com",
+    "project_id": "lodestarsample",
+    "storage_bucket": "lodestarsample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672125302398:android:9ee227a8e8f37e39",
+        "android_client_info": {
+          "package_name": "com.codebrat.lodestarsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672125302398-jurr07o51hq90uimpt8bh06telrr1ual.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALdTwANg8cDkZ221zu0oRkazYKGh0msyE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

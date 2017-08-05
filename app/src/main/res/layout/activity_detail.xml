@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.codebrat.lodestarsample.activity.DetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_head"
+        android:text="@string/course_head"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"/>
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:id="@+id/progress_bar"
+        android:layout_marginTop="64dp"
+        app:rcProgress="15"
+        app:rcSecondaryProgress="20"
+        app:rcMax="108"
+        app:rcRadius="2dp"
+        app:rcBackgroundPadding="2dp"
+        app:rcReverse="false"
+        app:rcProgressColor="@color/colorAccent"
+        app:rcSecondaryProgressColor="@color/colorPrimary"
+        app:rcBackgroundColor="@color/colorPrimaryDark" />
+</LinearLayout>
